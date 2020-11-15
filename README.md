@@ -45,13 +45,15 @@ https://www.larousse.fr/dictionnaires/francais/exemple
 <br><br>
 
 ## **Exo1 - Create user interaction**
-Now that we know that our objectif is possible, we are going to create a user interaction.<br>
+Now that we know that our objective is possible, we are going to create a user interaction.<br>
 This user input is the word that the user want to search.
 
 We are going to use this fonction to get user input:
 ```python
 input()
 ```
+
+![](sample_input.png)
 
 <br>
 
@@ -64,7 +66,7 @@ import request
 <br>
 
 ## **Exo3 - Check http error code**
-To dodge error, we want to do next exercise only if request is ok.<br>
+To avoid errors, we want to do next exercise only if request is ok.<br>
 You can find type of this code in this link:
 ```
 https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP
@@ -79,21 +81,26 @@ For specific parsing you can use XPath or regex.
 
 Print the definition and print "Mot non trouvé." if the word is not found.
 
+> You can use the website "https://regex101.com/" to get more information on regex and a real time using.
+
 <br>
 
 ## **Exo5 - Don't loose definition**
 We are going to create a small memory system, create the file "memory.json" and use this json to save automatically all the definition that you get. <br>
+This is a sample of the result that you can get:
+
+![](sample_json.png)
 
 <br>
 
 ## **Exo6 - Use the memory**
 Now that we have a memory, we are going to use it.<br>
-Also, read the json file, check all word that you previously get and if the word asking is found, don't scrap the main page and print the stocked definition.
+Also, read the json file, check all word that you previously get and if the word asking is found, don't scrap the main page and print the stocked definition from your memory file.
 
 <br>
 
 # **To go further**
 Now that you know how to make a simple scrap, you can try this possibility:
 - create a program that scrap a product page to do a price graphic
-- scrap a video youtube to get on real time information
+- scrap a youtube video to get on real time information
 - scrap an image bank to do a discord meme bot
