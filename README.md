@@ -60,7 +60,7 @@ input()
 ## **Exo2 - Get page content**
 We need to get page content, let's try to get this with request library:
 ```python
-import request
+import requests
 ```
 
 <br>
