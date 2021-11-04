@@ -21,6 +21,22 @@ A user-agent is like an ID card, where you can find the name of your web browser
 You can find your user agent while typing 'what's my user agent' on your browser.
 <br><br>
 
+### **Malicious using of WebScrapping**
+WebScrapping can be use to make malicious acts:<br>
+    - DDOS, they can be use to spam website with bot connection<br>
+    - Make Industrial Spying, like getting the price of concurrent product<br>
+    - Detect some errors, security leaks, backdoor or find hidden informations<br>
+    - ...
+<br><br>
+
+### **How to protect your Website?**
+To protect these malicious attacks, you have different possibilities:<br>
+    - Using CAPTCHAS to block bot interactions<br>
+    - Adding a rate limit for the different actions done by user<br>
+    - Checking user-agent<br>
+    - ...
+<br><br>
+
 # **Objectif of this workshop**
 In this workshop, we are going to make a dynamic french dictionnary with the website: https://www.larousse.fr/.
 <br><br>
