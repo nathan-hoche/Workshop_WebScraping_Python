@@ -1,5 +1,5 @@
 <h1 align="center">
-    Workshop - Scrapping Web Python
+    Workshop - Scraping Web Python
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <br><br>
 
 ### **What's a scrap?**
-Scrapping is the action of collecting source code of a web page, with a program.
+Scraping is the action of collecting source code of a web page, with a program.
 <br><br>
 
 ### **What's a user-agent?**
@@ -21,8 +21,8 @@ A user-agent is like an ID card, where you can find the name of your web browser
 You can find your user agent while typing 'what's my user agent' on your browser.
 <br><br>
 
-### **Malicious using of WebScrapping**
-WebScrapping can be use to make malicious acts:<br>
+### **Malicious using of WebScraping**
+WebScraping can be use to make malicious acts:<br>
     - DDOS, they can be use to spam website with bot connection<br>
     - Make Industrial Spying, like getting the price of concurrent product<br>
     - Detect some errors, security leaks, backdoor or find hidden informations<br>
